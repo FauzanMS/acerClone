@@ -1,0 +1,50 @@
+.Second{
+    background-image: url(../Second/secondback.jpg);
+    background-size: cover;
+    width: 100%;
+    height:80vh;
+    text-align: center;
+    color: white;
+
+}
+.fans{
+    width: 40%;
+    margin-top: 5%;
+}
+.earthion{
+    font-size: 3rem;
+}
+
+.earthLine{
+    font-size: 1.5rem;
+}
+@media (max-width:911px){
+    .Second{
+        background-image: url(../Second/secondback2.jpg);
+        background-size: cover;
+        width: 100%;
+        height:80vh;
+        text-align: center;
+        color: white;
+    }
+    .fan{
+        width: 80%;
+        margin-top: 5%;
+    }
+
+}
+@media (max-width:504px){
+    .Second{
+        background-image: url(../Second/secondback2.jpg);
+        background-size: cover;
+        width: 100%;
+        height:80vh;
+        text-align: center;
+        color: white;
+    }
+
+    .fans{
+        width: 80%;
+        margin-top: 25%;
+    }
+}

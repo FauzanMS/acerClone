@@ -1,0 +1,35 @@
+.firstNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 2rem;
+}
+.imgLi{
+    width: 6rem;
+}
+.imgLi2{
+    margin-top: 10%;
+    width: 6rem;
+}
+.firstNavbar ul{
+    display: flex;
+}
+.firstNavbar ul li{
+    list-style: none;
+    margin-right: 10%;
+}
+.acerLogo
+{
+    width: 5rem;
+}
+@media (max-width:911px){
+   .firstNavbar ul{
+       display: none;
+   }
+}
+@media (max-width:504px){
+    .firstNavbar ul{
+        display: none;
+    }  
+}

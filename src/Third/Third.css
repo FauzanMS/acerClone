@@ -1,0 +1,55 @@
+.Third{
+    background-image: url(../Third/thirdbqck.jpg);
+    background-size:cover;
+    width: 100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.fan{
+    width: 40%;
+    margin-top: 5%;
+}
+.thirdHeading{
+    padding-top: 5%;
+    font-size: 3rem;
+}
+.thirdpara{
+ width: 50%;
+ font-size: 1.4rem;
+ margin: auto;
+}
+@media (max-width:911px){
+    .Third{
+        background-image: url(../Third/thirdback.jpg);
+        background-size:cover;
+        height:100vh;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .thirdHeading{
+        padding-top: 5%;
+        font-size: 3rem;
+    }
+}
+@media (max-width:504px){
+    .Third{
+        background-image: url(../Third/thirdback.jpg);
+        background-size:cover;
+        height:80vh;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .thirdHeading{
+        padding-top: 25%;
+        font-size: 2rem;
+    }
+    .thirdpara{
+        width: 50%;
+        font-size: 1rem;
+        margin: auto;
+       }
+}

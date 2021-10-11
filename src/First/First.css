@@ -1,0 +1,62 @@
+.First{
+    background-image: url(../First/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:80vh;
+    text-align: center;
+}
+.nextacer{
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.madehuman{
+    margin-bottom: 3%;
+}
+.timingHead{
+    font-size: 2.2rem;
+}
+.list{
+    font-size:1.2rem;
+}
+@media (max-width:911px){
+    .First{
+        background-image: url(../First/back2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height:70vh;
+        text-align: center;
+    }
+    .nextacer{
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+}
+@media (max-width:504px){
+    .First{
+        background-image: url(../First/back2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* width: 100%; */
+        height:65vh;
+        text-align: center;
+    }
+    .nextacer{
+        width: 50%;
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+    .madehuman{
+        margin-bottom: 3%;
+    }
+    .timingHead{
+        font-size: 2rem;
+    }
+    .list{
+        font-size:1rem;
+    }
+}
